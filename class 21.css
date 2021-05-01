@@ -1,0 +1,199 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* fixt */
+
+
+
+.clear-fix::after{
+    content: "";
+    display: block;
+    clear: both;
+
+}
+.with-fix{
+    width: 1024px;
+    margin: auto;
+}
+
+
+/* header */
+
+
+.header{
+    background-color:#22c3a3;
+
+}
+.header-left{
+    width: 30%;
+    float: left;
+}
+.header-left a{
+    text-decoration: none;
+}
+.header-left a h2{
+    line-height: 51px;
+    margin-left: 35px;
+    color: #fff;
+}
+.header-right{
+    float: right;
+    width: 70%;
+     
+}
+.header-right ul{
+    text-align: right;
+}
+.header-right ul li{
+    display: inline-block;
+    color: #fff;
+    line-height: 51px;
+}
+.header-right ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 0 20px;
+    font-size: 20px;
+    display: inline-block;
+}
+
+/* SLIDER */
+
+
+.slider{
+    text-align: center;
+    background: url(https://i.ibb.co/yhLPBxs/178134199-505905787442083-5975638775884129539-n.jpg) no-repeat center;
+    color: #fff;
+    padding: 122px;
+}
+.slider h1{
+    padding: 10px;
+}
+.slider h4{
+    padding: 10px;
+}
+.slider a {
+    text-decoration: none;
+    margin-top: 27px;
+    display: inline-block;
+    height: 47px;
+    width: 154px;
+    border: 1px solid;
+    text-align: center;
+    line-height: 46px;
+    color: #fff;
+}
+
+/* survice */
+
+.survice{
+    text-align: center;
+    padding: 60px;
+}
+.survice h2{
+    padding: 10px;
+}
+
+
+/* icon */
+
+
+
+.icon{
+    text-align: center;
+    margin: auto;
+    border-bottom: 1px solid #0dbf9b;
+    padding-bottom:75px ;
+}
+.icon1{
+    height: auto; 
+    width: 23%;
+    float: left;
+    padding: 10px;
+    margin-left: 6px;
+}
+.fas{
+    padding: 20px;
+    font-size: 46px;
+    color:#0dbf9b;
+}
+.far{
+    padding: 20px;
+    font-size: 46px;
+    color:#0dbf9b;
+}
+
+
+/* About */
+
+ 
+.center{
+    text-align: center;
+    padding: 64px;
+    margin-bottom: 40px;
+}
+.center h2{
+    padding: 10px;
+}
+.left{
+    float: left;
+  width: 40%;
+}
+.left img{
+    width: 100%;
+    margin-left: 61px;
+     
+}
+.right{
+    float: right;
+    width: 50%;
+}.right h3{
+    padding: 20px 0;
+}
+}.right p{
+
+}
+
+
+/* contact */
+
+
+.contact{
+    background-color: #f6f6f6;
+    margin-top: 50px;
+}
+h3{
+    padding: 10px;
+}
+.contact-icon{
+    margin-top: -40px;
+}
+.class{
+    font-size: 32px;
+}
+.contact-icon1{
+    float: left;
+    text-align: center;
+    margin-bottom: 50px;
+     width: 33.33%;
+    
+}
+
+
+/* Foter */
+
+.foter{
+    background-color: #0dbf9b;
+    text-align: center;
+    padding: 15px;
+}
+.foter ul{}
+.foter ul li{
+    display: inline-block;
+}
+.foter ul li a{
+    padding: 20px 11px;
+    color: #fff;
+}
